@@ -1,8 +1,8 @@
 ---
 title: /GetEmployee
-position: 1.0
+position: 1.1
 type: get
-description: List all books
+description: Get Employee Information
 right_code: |
   ~~~ json
   [
@@ -14,7 +14,7 @@ right_code: |
       "HomePhone": "5555555555",
       "HomeEmailAddress": "",
       "WorkPhone": "2222222222",
-      "WorkEmailAddress": "drovito@thinkwareinc.com",
+      "WorkEmailAddress": "xxxxxx@thinkwareinc.com",
       "Gender": "Male",
       "MaritalStatus": "",
       "Status": "Active",
@@ -45,8 +45,8 @@ right_code: |
 
   ~~~ json
   {
-    "status": error,
-    "message": "An error has occured."
+    "status":"Error:",
+    "message":"Unauthorized"
   }
   ~~~
   {: title="Error" }
@@ -62,6 +62,12 @@ employeeid
 
 This Endpoint includes EmploymentHistory, PTO, and DirectDepositItems
 {: .info }
+
+###### Example
+
+```
+https://{baseurl}/ClientAPI/GetEmployee?token={token}&companyid=1&clientid=001&employeeid=010010001
+```
 
 <!-- Lists all the photos you have access to. You can paginate by using the parameters listed above.
 
