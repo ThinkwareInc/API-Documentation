@@ -52,13 +52,13 @@ right_code: |
   {: title="Error" }
 ---
 companyid
-: The Company ID of the employee - Required
+: The Company ID of the employee - <span style="color: red">Required</span>
 
 clientid
-: The Client ID of the employee - Required
+: The Client ID of the employee - <span style="color: red">Required</span>
 
 employeeid
-: The Employee ID of the employee - Required
+: The Employee ID of the employee - <span style="color: red">Required</span>
 
 This Endpoint includes EmploymentHistory, PTO, and DirectDepositItems
 {: .info }

@@ -11,7 +11,7 @@ right_code: |
   {: title="Error" }
 ---
 token
-: Authenticates API request - Required
+: Authenticates API request - <span style="color: red">Required</span>
 
 ###### Example
 

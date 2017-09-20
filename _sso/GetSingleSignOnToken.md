@@ -20,7 +20,7 @@ right_code: |
   {: title="Error" }
 ---
 userid
-: The UserID of the user you want to authenticate - Required
+: The UserID of the user you want to authenticate - <span style="color: red">Required</span>
 
 This endpoint will provide a token that can be used during single sign on to authenticate the user.
 {: .info }
