@@ -55,7 +55,7 @@ WorkHoursPerYear
 : The Work Hours per year of the employee - <span style="color: red">Required</span>
 
 WorkState
-: The WorkState of the employee - <span style="color: red">Required</span>
+: The WorkState of the employee <br/> ex: OH<br/> - <span style="color: red">Required</span>
 
 DOB
 : The Date of Birth of the employee - <span style="color: red">Required</span>
