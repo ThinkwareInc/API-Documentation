@@ -12,9 +12,14 @@ right_code: |
 ---
 Your API token is available for System level users at the following url:
 
-`https://{baseurl}/APIToken`
+```
+https://{baseurl}/APIToken
+```
 
-or by clicking API token under the gears in the top right.
+or by clicking API Token under the gears in the top right.
+
+API Tokens are like passwords..DO NOT share them.
+{: .warning }
 
 token
 : Authenticates API request - <span style="color: red">Required</span>
