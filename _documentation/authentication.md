@@ -10,6 +10,12 @@ right_code: |
   ~~~
   {: title="Error" }
 ---
+Your API token is available for System level users at the following url:
+
+`https://{baseurl}/APIToken`
+
+or by clicking API token under the gears in the top right.
+
 token
 : Authenticates API request - <span style="color: red">Required</span>
 
