@@ -17,6 +17,9 @@ right_code: |
   ~~~
   {: title="Error" }
 ---
+UserID
+: The UserID of the user you want to authenticate - <span style="color: red">Required</span>
+
 SSOToken
 : The token supplied by the /GetSSOToken endpoint - <span style="color: red">Required</span>
 
