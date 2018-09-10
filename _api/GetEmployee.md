@@ -51,6 +51,9 @@ right_code: |
   ~~~
   {: title="Error" }
 ---
+token
+: The API key used for authentication - <span style="color: red">Required</span>
+
 companyid
 : The Company ID of the employee - <span style="color: red">Required</span>
 
