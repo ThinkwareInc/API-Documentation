@@ -19,6 +19,9 @@ right_code: |
   ~~~
   {: title="Error" }
 ---
+token
+: The API key used for authentication - <span style="color: red">Required</span>
+
 userid
 : The UserID of the user you want to authenticate - <span style="color: red">Required</span>
 
