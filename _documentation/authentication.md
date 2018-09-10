@@ -21,8 +21,10 @@ or by clicking API Token under the gears in the top right.
 API Tokens are like passwords..DO NOT share them.
 {: .warning }
 
-token
+token 
 : Authenticates API request - <span style="color: red">Required</span>
+
+###### This is the API key you will use to authenticate each request.
 
 ###### Example
 
