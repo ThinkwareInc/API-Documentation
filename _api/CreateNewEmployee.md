@@ -64,7 +64,7 @@ DOB
 : The Date of Birth of the employee - <span style="color: red">Required</span>
 
 EEClass
-: The Employee Class of the employee - <span style="color: red">Required</span>
+: The Employee Class of the employee
 
 Email
 : The Email of the employee - <span style="color: red">Required - if using on boarding</span>
