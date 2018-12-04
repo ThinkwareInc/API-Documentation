@@ -31,7 +31,7 @@ clientid
 : The Client ID of the employee - <span style="color: red">Required</span>
 
 employeeid
-: The Employee ID of the employee - <span style="color: red">Required</span>
+: The Employee ID of the employee - <span style="color: red">Required - if manual employee ID creation.</span>
 
 Required Fields listed below should be submitted during your POST request
 {: .info }
