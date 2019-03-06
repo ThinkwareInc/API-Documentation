@@ -34,4 +34,4 @@ This endpoint will provide a token that can be used during single sign on to aut
 https://{baseurl}/ClientAPI/GetSSOToken?token={token}&userid=exampleid
 ```
 
-To use this SSO Token for Single Sign On please see http://apidocs.thinkwareinc.com/#ssoSSO
+To use this SSO Token for Single Sign On please see [SSO POST](http://apidocs.thinkwareinc.com/#ssoSSO)
