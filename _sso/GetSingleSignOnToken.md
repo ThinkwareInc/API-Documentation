@@ -34,32 +34,4 @@ This endpoint will provide a token that can be used during single sign on to aut
 https://{baseurl}/ClientAPI/GetSSOToken?token={token}&userid=exampleid
 ```
 
-<!-- Lists all the photos you have access to. You can paginate by using the parameters listed above.
-
-~~~ javascript
-$.get("http://api.myapp.com/books/", { "token": "YOUR_APP_KEY"}, function(data) {
-  alert(data);
-});
-~~~
-{: title="jQuery" }
-
-~~~ python
-r = requests.get("http://api.myapp.com/books/", token="YOUR_APP_KEY")
-print r.text
-~~~
-{: title="Python" }
-
-~~~ javascript
-var request = require("request");
-request("http://api.myapp.com/books?token=YOUR_APP_KEY", function (error, response, body) {
-  if (!error && response.statusCode == 200) {
-    console.log(body);
-  }
-});
-~~~
-{: title="Node.js" }
-
-~~~ bash
-curl http://sampleapi.readme.com/orders?key=YOUR_APP_KEY
-~~~
-{: title="Curl" } -->
+To use this SSO Token for Single Sign On please see http://apidocs.thinkwareinc.com/#ssoSSO
