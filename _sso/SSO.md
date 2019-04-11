@@ -32,7 +32,7 @@ This endpoint will provide single sign on into Darwinet 2.0.
 ###### Example
 
 ```
-https://{baseurl}/ClientAPI/SSO?token={token}
+https://{baseurl}/ClientAPI/SSO?token={token}&userid={userid}
 ```
 Send the required information with your POST request
 {: .info }
