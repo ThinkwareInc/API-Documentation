@@ -17,9 +17,6 @@ right_code: |
   ~~~
   {: title="Error" }
 ---
-token
-: The API key used for authentication - <span style="color: red">Required</span>
-
 UserID
 : The UserID of the user you want to authenticate - <span style="color: red">Required</span>
 
@@ -32,7 +29,7 @@ This endpoint will provide single sign on into Darwinet 2.0.
 ###### Example
 
 ```
-https://{baseurl}/ClientAPI/SSO?token={token}&userid={userid}&ssotoken={ssotoken}
+https://{baseurl}/ClientAPI/SSO?userid={userid}&ssotoken={ssotoken}
 ```
 Send the required information with your POST request
 {: .info }
